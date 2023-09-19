@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 const Navbartest = () => {
   return (
     <div>
-       <Navbar expand="lg" className="bg-body-white">
+       <Navbar expand="lg" className="bg-white fixed-top">
       <Container fluid>
         <Navbar.Brand href="#">
           <img src={logo} alt="" />
@@ -22,7 +22,7 @@ const Navbartest = () => {
             navbarScroll
           >
             <Link to ="/" className='text-dark text-decoration-none me-3 '><h5><span>Acceuil</span></h5></Link>
-            <Link to ="/ateliers" className='text-dark text-decoration-none me-3'><h5><span>Ateliers</span></h5></Link>
+            <Link to ="/atelier" className='text-dark text-decoration-none me-3'><h5><span>Atelier</span></h5></Link>
             <Link to ="/produits" className='text-dark text-decoration-none me-3'><h5><span>Produits</span></h5></Link>
             <Link to ="/a propos de nous" className='text-dark text-decoration-none me-3'><h5><span>A propos de nous</span></h5></Link>
             <Link to ="/contact" className='text-dark text-decoration-none me-3'><h5><span>Contact</span></h5></Link>

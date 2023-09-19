@@ -8,7 +8,7 @@ import {AiOutlineArrowRight} from "react-icons/ai";
 import './Cardprod.css'
 const Propos = () => {
   return (
-    <div className='container-fluid '>
+    <div className='container-fluid mt-5'>
       <div className="row">
         <div className="col-lg-6">
           <img src={p1} alt="" className='img-fluid'/>

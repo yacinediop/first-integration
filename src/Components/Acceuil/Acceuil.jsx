@@ -5,6 +5,7 @@ const Acceuil = () => {
     <div>
       MAB
     </div>
+    
   )
 }
 
